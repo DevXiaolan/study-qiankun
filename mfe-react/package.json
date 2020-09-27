@@ -2,7 +2,7 @@
   "private": true,
   "name": "mfe-react",
   "scripts": {
-    "start": "umi dev",
+    "start": "PORT=8001 umi dev",
     "build": "umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",

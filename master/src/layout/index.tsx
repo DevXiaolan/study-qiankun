@@ -9,7 +9,8 @@ export default ({ children }) => {
       <menu>
         <Link className={styles.link} to="/">master</Link>|
         <Link className={styles.link} to="/mfe-react">mfe-react</Link>|
-        <Link className={styles.link} to="/mfe-vue">mfe-vue</Link>
+        <Link className={styles.link} to="/mfe-vue">mfe-vue</Link>|
+        <Link className={styles.link} to="/put-all-in">放在一起</Link>
       </menu>
       {children}
     </div>

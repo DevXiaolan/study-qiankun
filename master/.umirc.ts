@@ -21,6 +21,10 @@ export default defineConfig({
           path: '/mfe-vue',
           microApp: 'mfe-vue',
         },
+        {
+          path: '/put-all-in',
+          component: '@/pages/all',
+        },
       ]
     },
   ],

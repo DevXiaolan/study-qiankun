@@ -19,6 +19,6 @@
 
 > cd mfe-vue 
 > 
-> npm run serve
+> npm start
 
 4. open `http://127.0.0.1:8000`

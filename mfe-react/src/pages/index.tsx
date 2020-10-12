@@ -1,12 +1,13 @@
 import React from 'react';
 import { useModel } from 'umi';
-import Logo from './react.png'
+
 import styles from './index.less';
+import Logo from './react.png';
 
 
 export default () => {
   const props = useModel('@@qiankunStateFromMaster');
-
+  
   return (
     <div>
       <img className={styles.logo} src={Logo} />
